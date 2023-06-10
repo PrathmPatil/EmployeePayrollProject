@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="empTable.css" />
+    <script src="empTable.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="outerBody">
+    <header class="header">
+      <div class="title_left">
+        <div class="logo">
+          <img
+            src="./logo.png"
+            alt="logo"
+            id="logo_img"
+            height="42px"
+            width="42px"
+          />
+        </div>
+        <div class="logo_name">
+          <h3 id="emp">Employee</h3>
+          <h3 id="pay">Payroll</h3>
+        </div>
+      </div>
+      <div class="title_right">
+        <h2 id="h_title">Employee Payroll UI/UX Design</h2>
+      </div>
+    </header>
+    <section class="main">
+              <div class="title">
+                  <div class="left_title">
+                      <h3>Employee Payroll</h3>
+                  </div>
+                  <div class="right_title">
+                      <div class="box-i">
+                          <i class="fa fa-search"></i>
+                      </div>
+                      <button class="box-t">
+                        <a href="emp.html" target="_balnk">
+                          <i class="fa fa-plus" style="size: 10px;"></i>
+                          <h4>Add User</h4>
+                        </a>
+                      </button>
+                  </div>
+              </div>
+      <table class="table">
+        <thead>
+          <tr class="table-headers">
+            <th class="profile-pic"></th>
+            <th class="name-col">NAME</th>
+            <th class="gender-col">GENDER</th>
+            <th class="department-col">DEPARTMENT</th>
+            <th class="salary-col">SALARY</th>
+            <th class="start_date-col">START DATE</th>
+            <th class="action-col">ACTION</th>
+          </tr>
+        </thead>
+        <tbody class="table-body"></tbody>
+      </table>
+    </section>
+  </body>
+</html>
